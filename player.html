@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="player.css">
+    <title> Ali Karam Radio </title>
+</head>
+<body>
+    
+    <main id="player_main">
+        <header>
+            <img src="headerLogo.jpg" id="header_logo">
+            <h2 id="header_title"> LIVE RADIO </h2>
+            <p id="header_text"> RADIO 1 </p>
+        </header>
+        <div id="content_button">
+            <article id="buttons_box">
+                <img src="back.png" id="back">
+                <img src="play.png" id="play_img">
+                <img src="next.png" id="next">
+                <audio src="" id="audio_source"></audio>
+            </article>
+            <article id="volume">
+                <h2> Voume </h2>
+                <input type="range" min="0" max="100" id="range_volume"/>
+                <h2> Speed </h2>
+                <input type="range" min="0" max="200" id="range_speed"/>
+            </article>
+            <article id="colors">
+                <button id="color1"></button>
+                <button id="color2"></button>
+                <button id="color3"></button>
+                <button id="color4"></button>
+                <button id="color5"></button>
+            </article>
+        </div>
+    </main>
+
+    <script src="player.js"></script>
+</body>
+</html>
